@@ -1,0 +1,10 @@
+<center><i><h1 style=" display:block; color:red; border-bottom:1px solid red">Database Concept</h1></i></center>
+
+<div><h2>Title List</h2></div>
+<ol>
+<%  @article.each do |data| %>
+   <li>
+      <h3><%= data.title %></h3>
+   </li>
+<% end %>    
+</ol>
